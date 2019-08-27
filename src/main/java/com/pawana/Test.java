@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class Test {
-
+ //Good
 	public static void main(String[] args) {
 		ApplicationContext ac=new AnnotationConfigApplicationContext(Appconfig.class);
 		JdbcTemplate   j=(JdbcTemplate) ac.getBean("jobj");
